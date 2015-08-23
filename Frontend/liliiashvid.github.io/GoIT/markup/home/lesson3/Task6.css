@@ -1,0 +1,31 @@
+
+#red, #green, #blue {display: none}
+
+label[for="red"]
+             {text-decoration: underline; color: red; cursor: pointer; margin-left: 10px}
+
+label[for="green"]
+             {text-decoration: underline; color: green; cursor: pointer; margin-left: 10px}
+
+label[for="blue"]
+             {text-decoration: underline; color: blue; cursor: pointer; margin-left: 10px; margin-right: 10px}
+
+
+.red   {background-color: red; color: white; border-radius: 15%;}
+
+.green  {background-color: green; color: white; border-radius: 15%; }
+
+.blue  {background-color: blue; color: white; border-radius: 15%;}
+
+#red:checked ~ label[for="red"],
+#green:checked ~ label[for="green"],
+#blue:checked ~ label[for="blue"]
+{
+    opacity: 0.4;
+}
+
+#red:checked ~ .red,
+#green:checked ~ .green,
+#blue:checked ~ .blue{
+    display: none;
+}

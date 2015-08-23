@@ -1,0 +1,14 @@
+a[href*="http"]{
+    color: #f70;
+}
+
+a[href*="com"]{
+    color: #666;
+}
+
+a[target="_blank"]:after
+{
+    content: " \21f1";
+    display: inline-block;
+    margin-left: 7px;
+}
