@@ -1,0 +1,26 @@
+
+.pager {
+    background-color: #F8F8FF;
+    width: 600px;
+}
+.pager li {
+    list-style:none;
+    display:inline-block;
+    font-family:Economica bold;
+    color: #a64dff;
+    padding: 6px 7px;
+    text-align: center;
+    cursor: pointer;
+}
+.page {
+    border: solid 2px #ddd;
+    border-radius:3px;
+    padding: 5px;}
+.Words, .Dotes {
+    border-radius:3px;}
+
+.page:hover,.Words:hover, .Dotes:hover {
+    background-color: #a64dff;
+    color:white;
+
+}

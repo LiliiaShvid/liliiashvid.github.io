@@ -1,0 +1,30 @@
+
+.Menu {
+    background-color:#a64dff;
+}
+
+ul {
+    list-style-type: none;
+    width:900px;
+    margin:auto;
+}
+li {
+    margin:auto;
+    display: inline-block;
+    background-color:#a64dff;
+    padding:0.35em 0.6em;
+    font-size:1.25em;
+}
+
+a {
+    font-family: Economica bold;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.Menu li:hover {
+    background-color:lightgray;
+    color: #666666;
+}

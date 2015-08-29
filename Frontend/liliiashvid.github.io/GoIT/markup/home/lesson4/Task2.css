@@ -1,0 +1,34 @@
+
+.Menu {
+    width:900px;
+    margin: 0 auto;
+}
+.Border {
+    width:100%;
+    background-color: #a64dff;
+}
+ul { list-style-type: none;
+    padding: 0.4em;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+a   {
+    font-family:Economica bold;
+    background-color: #a64dff;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0.5em 0.6em;
+    padding: 0.5em;
+}
+li:last-of-type {
+    float:right;
+}
+li a:hover {
+    background-color:#eeeeee;
+    color:#a0a0a2;
+}
+
+
