@@ -1,0 +1,56 @@
+.vision {
+    position: relative;
+    width: 400px;
+    text-align: justify;
+    font: 80px arial, sans-serif;
+    line-height: 5px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555555;
+}
+
+p:after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+}
+hr {
+    position: absolute;
+    width: 400px;
+    bottom: 1px;
+    opacity: 0.2;
+    border-bottom: 2px solid #dd3838;
+}
+
+.line2 {
+    font-size: calc(1em - 1em/12);
+}
+.line3 {
+    font-size: calc(1em - 2em/12);
+}
+.line4 {
+    font-size: calc(1em - 3em/12);
+}
+.line5 {
+    font-size: calc(1em - 4em/12);
+}
+.line6 {
+    font-size: calc(1em - 5em/12)
+}
+.line7 {
+    font-size: calc(1em - 6em/12)
+}
+.line8 {
+    font-size: calc(1em - 7em/12);
+}
+.line9 {
+    font-size: calc(1em - 8em/12);
+}
+.line10 {
+    font-size: calc(1em - 10em/12);
+}
+.line11 {
+    font-size: calc(1em - 10em/12);
+}
+.line12 {
+    font-size: calc(1em - 11em/12);
+}
