@@ -1,10 +1,11 @@
 section {
     position: fixed;
     width: 1388px;
-    height:314px;
-    background: url(../photo/background-image.png) no-repeat scroll;
+    background: url(photo/background-image.png) no-repeat scroll;
     background-size: cover;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 h1{
     font-size: 38px;
@@ -26,11 +27,17 @@ div.comment-customer, div.customer-position {
 div.customer-position {
     text-align: right;
 }
-div.Photo {
+.Customer1 .Photo {
     position: absolute;
     left: -135px;
     top: 0;
 }
+.Customer2 .Photo {
+    position: absolute;
+    left: 700px;
+    top: 215px;
+}
+
 div.comment-customer, div.Customer1:nth-of-type(odd) {
     float: left;
 }
@@ -62,7 +69,7 @@ div.text {
 div.Comment:before {
     content: "";
     position: absolute;
-    left: -9%;
+    left: -5%;
     top: 29%;
     border-style: solid;
     border-width: 22px 28px 22px 0;

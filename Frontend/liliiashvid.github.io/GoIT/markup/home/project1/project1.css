@@ -1,0 +1,122 @@
+/* ----------------------------------Header------------------------------------------------------ */
+.wrapper{
+    position: relative;
+    overflow: hidden;}
+
+.topHeader a {
+    text-decoration: none;
+    font-family:'Myriad Pro', Arial, sans-serif;
+    color:#EE8531;
+    margin-left:135px;
+    font-size: 30px;}
+
+.topHeader a span:last-child {
+    color: #3070A8;
+    font-weight: bold;
+    text-transform: uppercase;}
+
+.menu li {
+    list-style: none;
+    font-size:12px;
+    display: inline-block;
+    margin: 0px 7px;}
+
+.menu {
+    position: relative;
+    margin-left:650px;
+    margin-top:-30px;}
+
+.menu a {
+    text-decoration: none;
+    font-family:'Myriad Pro', Arial, sans-serif;
+    text-transform: uppercase;
+    color:#A1A1A1;
+    padding: 10px 15px 14px 15px;}
+
+li a:hover {
+    color: #3070A8;
+    border-bottom:4px solid #3070A8;  }
+
+/* ----------------------------------Baner------------------------------------------------------ */
+.site-banner {
+    position: relative;
+    background: url("pictures/banner-background.png");
+    background-size: cover;
+    height: 585px;
+    color: white;  }
+.site-banner .wrapper {
+    position: relative;
+    text-align: center;
+    padding-top: 100px;}
+
+.site-banner p:first-child {
+    font-weight:300;
+    font-size:36px;
+    font-family: 'Myriad Pro', Arial, sans-serif;}
+
+.site-banner p:first-child span {
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:52px;
+    font-family: 'Myriad Pro', Arial, sans-serif;}
+
+.site-banner p:nth-child(2) {
+    font-family: Calibri, sans-serif;
+    width:550px;
+    margin:-16px auto 0;
+    font-style:italic;
+    font-size:19px;}
+
+.site-banner .wrapper a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Calibri, sans-serif;
+    min-width:110px;
+    display:inline-block;
+    margin-top:30px;
+    padding:16px 48px;
+    border-radius:7px;
+    border:1px solid;
+}
+.site-banner .wrapper a:hover span {
+    color:#EE8531;
+}
+/* ----------------------------------Services------------------------------------------------------ */
+.services {
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    height: 585px;
+    color: #41525c;
+}
+
+.services .servicesHeader {
+    font-size: 32;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+.services .services-boxes .service-box {
+    width:350px ;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.services .services-boxes .service-box h1{
+    color:#3070a8;
+    font-weight:normal;
+    font-size:26px;
+}
+.services .services-boxes {
+    position:relative;
+    margin-left: 120px;
+    text-align: center;
+}
+
+.services .services-boxes .service-box p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #999;
+    font-size:14px;
+}
+
+/* ----------------------------------Midle-Section------------------------------------------------------ */

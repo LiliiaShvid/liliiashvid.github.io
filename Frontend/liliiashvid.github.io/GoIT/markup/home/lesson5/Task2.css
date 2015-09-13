@@ -69,26 +69,6 @@ ul li {
     border-bottom: 1px solid white;
 }
 
-
-ul li:nth-child(even) {
-    background-color: #f5f5f6;
-}
-
-ul li:nth-child(odd) {
-    background-color: #edf5fd;
-}
-
-li:before {
-    content: '';
-    width: 14px;
-    height: 15px;
-    float: left;
-    margin: 0 12px 0 20px;
-    background: url('../tick/tick.png') 0 0;
-
-}
-
-
 .button {
     position: relative;
     box-sizing: border-box;
@@ -112,3 +92,19 @@ li:before {
     cursor: pointer;
     background-color: #b3560b;
 }
+ul li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+
+ul li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+
+li:before {
+    content: '';
+    width: 14px;
+    height: 15px;
+    float: left;
+    margin: 0 12px 0 20px;
+    background: url("tick/tick.png") 0 0;}
+

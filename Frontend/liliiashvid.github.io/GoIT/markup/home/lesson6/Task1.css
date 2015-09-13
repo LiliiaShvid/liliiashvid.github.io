@@ -154,7 +154,7 @@ header .title {
     left: 33px;
     width: 15px;
     height: 15px;
-    background: url("../tick/tick.png");
+    background: url("tick/tick.png");
 }
 .Block-details li:nth-child(odd) {
     background: #edf5fd;
