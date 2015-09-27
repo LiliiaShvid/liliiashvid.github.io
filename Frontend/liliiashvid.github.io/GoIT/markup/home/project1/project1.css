@@ -444,3 +444,20 @@ div.Comment:before {
 
 }
 
+
+/* ----------------------------------Footer------------------------------------------------------ */
+
+
+.Footer .contacts .contact-data1 li:nth-child(1){
+    list-style-image: url(pictures/geoposition.png);}
+
+.Footer .contacts .contact-data2 li:nth-child(1){
+    list-style-image: url(pictures/mobileico.png);  }
+
+.Footer .contacts .contact-data3 li:nth-child(1){
+    list-style-image: url(pictures/mail.png);  }
+
+.Footer .contacts .social-utility li{
+    display: inline;
+}
+
