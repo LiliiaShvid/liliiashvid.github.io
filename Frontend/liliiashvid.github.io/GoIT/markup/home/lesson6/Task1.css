@@ -7,11 +7,12 @@ h1 {
     text-align: center;
     margin-bottom: 65px;
 }
-.content {
+.Blocks-content {
     margin: 30px auto 0;
     width: 883px;
     font-size: 0;
 }
+
 .Blockbody {
     display: inline-block;
     border-radius: 5px;
