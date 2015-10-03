@@ -1,12 +1,16 @@
+
 *{
     list-style: none;
     text-decoration: none;
 }
 nav {
     background-color: #00A0FF;
-    margin:30px;
-    font-family: Economica bold;}
+    margin:0 auto;
+    width: 100%;
+    position: relative;
+}
 .Menu  {
+    font-family: Economica, serif;
     width:900px;
     margin:0 auto;
 }
@@ -17,7 +21,6 @@ ul li  {
     display: inline-block;
     margin:13px 7px;
     padding:2px 1px;
-    position: relative;
 }
 .Menu ul li {
     cursor: pointer;
@@ -40,12 +43,14 @@ li:hover a{
     padding: 5px;
     background-color: #eeeeee;
     position: absolute;
-    top: 100%;
-    left: -375px;
+    top: 75%;
+    left:0; right: 0;
+    width: 99%;
     display: none;
-    width:900px;
     margin:12px;
     text-align: center;
-
+    margin-left: -1px;
 }
+
+
 
