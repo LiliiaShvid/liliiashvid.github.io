@@ -1,0 +1,11 @@
+/**
+ * Created by User on 11.10.2015.
+ */
+'use strict';
+function greet(name){
+    if(name === "Johnny"){
+        return "Hello, my love!";
+    } else{
+        return "Hello, " + name + "!";
+    }
+}
