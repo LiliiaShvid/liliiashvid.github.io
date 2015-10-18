@@ -366,12 +366,11 @@ header .title {
 /* ----------------------------------Testimonials------------------------------------------------------ */
 
 .testimonials {
-    position: fixed;
-    width: 1388px;
+    position: relative;
+    width: 100%;
     background: url("pictures/background-image.png") no-repeat scroll;
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    margin-top: 20px;
     overflow: hidden;
 }
 .testimonials h1{
@@ -397,12 +396,12 @@ header .title {
 .testimonials .Customer1 .Photo {
     position: absolute;
     left: -135px;
-    top: 0;
+    top: 0px;
 }
 .testimonials .Customer2 .Photo {
     position: absolute;
-    left: 700px;
-    top: 215px;
+    right: 750px;
+    top: 200px;
 }
 
 .testimonials div.comment-customer, div.Customer1:nth-of-type(odd) {
@@ -446,7 +445,10 @@ div.Comment:before {
 
 
 /* ----------------------------------Footer------------------------------------------------------ */
-
+.Footer {
+    position: relative;
+    width: 100%;
+}
 
 .Footer .contacts .contact-data1 li:nth-child(1){
     list-style-image: url(pictures/geoposition.png);}
@@ -461,3 +463,37 @@ div.Comment:before {
     display: inline;
 }
 
+.image-wrapper {
+    position:absolute;
+    width: 50%;
+    left: 50%;
+    text-align: right;
+}
+.contacts {
+    position:relative;
+    text-align: left;
+    width: 50%;
+}
+.contacts ul{
+    position:relative;
+    right: -30%;
+    font-family: 'Open Sans', sans-serif;
+}
+.Footer_wrapper {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    position: relative;
+    background-color: #2F70A8;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Footer_wrapper span {
+    font-weight: bold;
+}
+.Footer_wrapper a  {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
