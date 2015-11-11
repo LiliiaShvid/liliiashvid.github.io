@@ -1,6 +1,4 @@
-/**
- * Created by User on 25.10.2015.
- */
+
 function maxSummaDoneTasks(task) {
     var max = 0;
     for (var score in task) {
